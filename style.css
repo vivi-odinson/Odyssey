@@ -141,7 +141,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 992px) {
     .site-branding {
-        margin-left: 45px;
+        margin-left: 35px;
     }
 
     .site-header .site-title img {
@@ -2113,6 +2113,7 @@ ul.tabs-nav .tab-nav.active {
 
 .footer-logo img {
     max-width: 100%;
+    margin-left: 80px;
 }
 
 .footer-navigation ul,
