@@ -141,7 +141,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 992px) {
     .site-branding {
-        margin-left: 45px;
+        margin-left: 35px;
     }
 
     .site-header .site-title img {
@@ -153,11 +153,11 @@ a:hover, a:active {
   Hamburger Menu
 ----------------------------------------*/
 .hamburger-menu {
-    position: relative;
+    position: fixed;
     width: 100%;
     max-width: 24px;
     height: 22px;
-    margin-left: auto;
+    margin-left: 50px;
     transition: .5s ease-in-out;
     cursor: pointer;
 }
@@ -167,7 +167,7 @@ a:hover, a:active {
     position: absolute;
     height: 2px;
     width: 100%;
-    background: #fff;
+    background: rgb(0, 0, 0);
     border-radius: 10px;
     opacity: 1;
     left: 0;
@@ -507,6 +507,7 @@ a:hover, a:active {
 }
 
 .homepage-info-section .entry-title {
+    text-align: center;
     font-size: 60px;
     font-weight: bold;
     line-height: 1;
@@ -525,7 +526,7 @@ a:hover, a:active {
 
 .homepage-info-section .entry-footer a {
     margin-top: 32px;
-    margin-right: 18px;
+    margin-right: auto;
 }
 
 /*--------------------------------------------------------------
@@ -2113,6 +2114,7 @@ ul.tabs-nav .tab-nav.active {
 
 .footer-logo img {
     max-width: 100%;
+    margin-left: 80px;
 }
 
 .footer-navigation ul,
