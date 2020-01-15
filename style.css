@@ -1,16 +1,11 @@
 @font-face {
-    font-family: 'Calibri';
-    src: url('fonts/Calibri.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Calibri.woff') format('woff'),
-    url('fonts/Calibri.ttf')  format('truetype'),
-    url('fonts/Calibri.svg#Calibri') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    src: url('fonts/Montserrat-Medium.ttf');
+    font-family: mon;
 }
 
 body {
     color: #2f2f2f;
-    font-family: 'Calibri';
+    font-family: mon;
 }
 
 img {
@@ -82,7 +77,7 @@ a:hover, a:active {
 }
 
 .btn.dark-purple {
-    background: #9a24c1;
+    background: #86146a;
     color: #fff;
 }
 
@@ -237,7 +232,7 @@ a:hover, a:active {
     overflow-x: scroll;
     padding: 30px;
     margin: 0;
-    background: #9a28d7;
+    background: #600741;
     transition: all 0.35s;
 }
 
@@ -294,7 +289,6 @@ a:hover, a:active {
         color: #fff;
     }
 }
-
 /*
 # Buy Tickets
 --------------------------------*/
@@ -327,10 +321,10 @@ a:hover, a:active {
 }
 
 .hero-slider .entry-title {
-    font-size: 28px;
+    font-size: 10px;
     line-height: 1.2;
     font-weight: bold;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .hero-slider .btn {
@@ -427,7 +421,7 @@ a:hover, a:active {
 --------------------------------*/
 .countdown-holder {
     margin-right: 12px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: bold;
 }
@@ -462,7 +456,7 @@ a:hover, a:active {
     }
 
     .hero-slider .entry-title {
-        font-size: 72px;
+        font-size: 65px;
     }
 
     .countdown-holder {
@@ -516,6 +510,7 @@ a:hover, a:active {
 
 .homepage-info-section .entry-content {
     margin-top: 32px;
+    text-align: center;
 }
 
 .homepage-info-section .entry-content p {
@@ -1008,9 +1003,10 @@ a:hover, a:active {
 }
 
 .newsletter-subscribe .entry-title {
-    font-size: 36px;
+    font-size: 50px;
     font-weight: bold;
     color: #fff;
+    letter-spacing: 5px;
 }
 
 .newsletter-subscribe header p {
@@ -2134,6 +2130,7 @@ ul.tabs-nav .tab-nav.active {
     display: block;
     padding: 8px 12px;
     color: #fff;
+    transition: all 0.35s;
 }
 
 .footer-social li a {
